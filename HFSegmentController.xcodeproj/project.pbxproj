@@ -15,12 +15,12 @@
 		3B8E8EF01CEEA1980024A0B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B8E8EEE1CEEA1980024A0B7 /* LaunchScreen.storyboard */; };
 		3B8E8EFB1CEEA1980024A0B7 /* HFSegmentControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B8E8EFA1CEEA1980024A0B7 /* HFSegmentControllerTests.m */; };
 		3B8E8F061CEEA1980024A0B7 /* HFSegmentControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B8E8F051CEEA1980024A0B7 /* HFSegmentControllerUITests.m */; };
-		3B8E8F161CEEA32E0024A0B7 /* HFSegmentItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B8E8F151CEEA32E0024A0B7 /* HFSegmentItem.m */; };
-		3B8E8F191CEEB4010024A0B7 /* HFSegmentItemContent.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B8E8F181CEEB4010024A0B7 /* HFSegmentItemContent.m */; };
-		3B8E8F1C1CEED2DB0024A0B7 /* HFSegmentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B8E8F1B1CEED2DB0024A0B7 /* HFSegmentView.m */; };
-		3B8E8F1F1CEED9520024A0B7 /* HFSegmentViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B8E8F1E1CEED9520024A0B7 /* HFSegmentViewCell.m */; };
 		3B8E8F221CEEDE690024A0B7 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B8E8F211CEEDE690024A0B7 /* HomeViewController.m */; };
 		3B8E8F251CEEE4DA0024A0B7 /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B8E8F241CEEE4DA0024A0B7 /* SettingViewController.m */; };
+		3B8E8F321CEF11880024A0B7 /* HFSegmentItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B8E8F2B1CEF11880024A0B7 /* HFSegmentItem.m */; };
+		3B8E8F331CEF11880024A0B7 /* HFSegmentItemContent.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B8E8F2D1CEF11880024A0B7 /* HFSegmentItemContent.m */; };
+		3B8E8F341CEF11880024A0B7 /* HFSegmentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B8E8F2F1CEF11880024A0B7 /* HFSegmentView.m */; };
+		3B8E8F351CEF11880024A0B7 /* HFSegmentViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B8E8F311CEF11880024A0B7 /* HFSegmentViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,18 +57,18 @@
 		3B8E8F011CEEA1980024A0B7 /* HFSegmentControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HFSegmentControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B8E8F051CEEA1980024A0B7 /* HFSegmentControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HFSegmentControllerUITests.m; sourceTree = "<group>"; };
 		3B8E8F071CEEA1980024A0B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3B8E8F141CEEA32E0024A0B7 /* HFSegmentItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFSegmentItem.h; sourceTree = "<group>"; };
-		3B8E8F151CEEA32E0024A0B7 /* HFSegmentItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFSegmentItem.m; sourceTree = "<group>"; };
-		3B8E8F171CEEB4010024A0B7 /* HFSegmentItemContent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFSegmentItemContent.h; sourceTree = "<group>"; };
-		3B8E8F181CEEB4010024A0B7 /* HFSegmentItemContent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFSegmentItemContent.m; sourceTree = "<group>"; };
-		3B8E8F1A1CEED2DB0024A0B7 /* HFSegmentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFSegmentView.h; sourceTree = "<group>"; };
-		3B8E8F1B1CEED2DB0024A0B7 /* HFSegmentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFSegmentView.m; sourceTree = "<group>"; };
-		3B8E8F1D1CEED9520024A0B7 /* HFSegmentViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFSegmentViewCell.h; sourceTree = "<group>"; };
-		3B8E8F1E1CEED9520024A0B7 /* HFSegmentViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFSegmentViewCell.m; sourceTree = "<group>"; };
 		3B8E8F201CEEDE690024A0B7 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
 		3B8E8F211CEEDE690024A0B7 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		3B8E8F231CEEE4DA0024A0B7 /* SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
 		3B8E8F241CEEE4DA0024A0B7 /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
+		3B8E8F2A1CEF11880024A0B7 /* HFSegmentItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFSegmentItem.h; sourceTree = "<group>"; };
+		3B8E8F2B1CEF11880024A0B7 /* HFSegmentItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFSegmentItem.m; sourceTree = "<group>"; };
+		3B8E8F2C1CEF11880024A0B7 /* HFSegmentItemContent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFSegmentItemContent.h; sourceTree = "<group>"; };
+		3B8E8F2D1CEF11880024A0B7 /* HFSegmentItemContent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFSegmentItemContent.m; sourceTree = "<group>"; };
+		3B8E8F2E1CEF11880024A0B7 /* HFSegmentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFSegmentView.h; sourceTree = "<group>"; };
+		3B8E8F2F1CEF11880024A0B7 /* HFSegmentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFSegmentView.m; sourceTree = "<group>"; };
+		3B8E8F301CEF11880024A0B7 /* HFSegmentViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFSegmentViewCell.h; sourceTree = "<group>"; };
+		3B8E8F311CEF11880024A0B7 /* HFSegmentViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFSegmentViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,7 +118,7 @@
 		3B8E8EDF1CEEA1980024A0B7 /* HFSegmentController */ = {
 			isa = PBXGroup;
 			children = (
-				3B8E8F131CEEA2F80024A0B7 /* HFSegmentController */,
+				3B8E8F291CEF11880024A0B7 /* HFSegmentView */,
 				3B8E8EE31CEEA1980024A0B7 /* AppDelegate.h */,
 				3B8E8EE41CEEA1980024A0B7 /* AppDelegate.m */,
 				3B8E8EE61CEEA1980024A0B7 /* ViewController.h */,
@@ -163,19 +163,19 @@
 			path = HFSegmentControllerUITests;
 			sourceTree = "<group>";
 		};
-		3B8E8F131CEEA2F80024A0B7 /* HFSegmentController */ = {
+		3B8E8F291CEF11880024A0B7 /* HFSegmentView */ = {
 			isa = PBXGroup;
 			children = (
-				3B8E8F141CEEA32E0024A0B7 /* HFSegmentItem.h */,
-				3B8E8F151CEEA32E0024A0B7 /* HFSegmentItem.m */,
-				3B8E8F171CEEB4010024A0B7 /* HFSegmentItemContent.h */,
-				3B8E8F181CEEB4010024A0B7 /* HFSegmentItemContent.m */,
-				3B8E8F1A1CEED2DB0024A0B7 /* HFSegmentView.h */,
-				3B8E8F1B1CEED2DB0024A0B7 /* HFSegmentView.m */,
-				3B8E8F1D1CEED9520024A0B7 /* HFSegmentViewCell.h */,
-				3B8E8F1E1CEED9520024A0B7 /* HFSegmentViewCell.m */,
+				3B8E8F2A1CEF11880024A0B7 /* HFSegmentItem.h */,
+				3B8E8F2B1CEF11880024A0B7 /* HFSegmentItem.m */,
+				3B8E8F2C1CEF11880024A0B7 /* HFSegmentItemContent.h */,
+				3B8E8F2D1CEF11880024A0B7 /* HFSegmentItemContent.m */,
+				3B8E8F2E1CEF11880024A0B7 /* HFSegmentView.h */,
+				3B8E8F2F1CEF11880024A0B7 /* HFSegmentView.m */,
+				3B8E8F301CEF11880024A0B7 /* HFSegmentViewCell.h */,
+				3B8E8F311CEF11880024A0B7 /* HFSegmentViewCell.m */,
 			);
-			name = HFSegmentController;
+			path = HFSegmentView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -311,12 +311,12 @@
 			files = (
 				3B8E8EE81CEEA1980024A0B7 /* ViewController.m in Sources */,
 				3B8E8EE51CEEA1980024A0B7 /* AppDelegate.m in Sources */,
-				3B8E8F1F1CEED9520024A0B7 /* HFSegmentViewCell.m in Sources */,
-				3B8E8F1C1CEED2DB0024A0B7 /* HFSegmentView.m in Sources */,
-				3B8E8F161CEEA32E0024A0B7 /* HFSegmentItem.m in Sources */,
+				3B8E8F351CEF11880024A0B7 /* HFSegmentViewCell.m in Sources */,
+				3B8E8F321CEF11880024A0B7 /* HFSegmentItem.m in Sources */,
+				3B8E8F331CEF11880024A0B7 /* HFSegmentItemContent.m in Sources */,
 				3B8E8F251CEEE4DA0024A0B7 /* SettingViewController.m in Sources */,
-				3B8E8F191CEEB4010024A0B7 /* HFSegmentItemContent.m in Sources */,
 				3B8E8EE21CEEA1980024A0B7 /* main.m in Sources */,
+				3B8E8F341CEF11880024A0B7 /* HFSegmentView.m in Sources */,
 				3B8E8F221CEEDE690024A0B7 /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
