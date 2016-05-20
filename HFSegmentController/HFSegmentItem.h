@@ -28,11 +28,6 @@ typedef void (^SelectedItemAction)(HFSegmentItem *item);
 
 @property (nonatomic, copy) SelectedItemAction selectedAction;
 
-/**
- *  间距
- */
-@property (nonatomic, assign) CGFloat space;
-
 
 + (CGFloat)calcuWidth: (NSString *)title;
 

@@ -29,19 +29,20 @@
 #define DEFAULT_COLOR_HIGHLIGHT [UIColor orangeColor]
 #define DEFAULT_FONT            [UIFont systemFontOfSize:14]
 
+#define DEFAULT_SPACE 8.f
+
 @implementation HFSegmentItem
 
 + (CGFloat)calcuWidth:(NSString *)title
 {
     HFSegmentItem *item = [[HFSegmentItem alloc] initWithFrame:CGRectZero title:title];
-    return [item calcuWidth] + item.space;
+    return [item calcuWidth] + DEFAULT_SPACE;
 }
 
 - (instancetype)initWithFrame:(CGRect)frame title:(NSString *)title
 {
     if (self = [super initWithFrame:frame]) {
-        
-        self.space = 8.f;
+
         self.title = title;
     }
     
@@ -103,8 +104,8 @@
     [super layoutSubviews];
     
     CGFloat buttonWidth = [self calcuWidth];
-    self.frame = (CGRect){self.frame.origin, {buttonWidth + self.space, self.frame.size.height}};
-    self.titleLabel.frame = CGRectMake(self.space / 2, 0, buttonWidth, self.frame.size.height);
+    self.frame = (CGRect){self.frame.origin, {buttonWidth + DEFAULT_SPACE, self.frame.size.height}};
+    self.titleLabel.frame = CGRectMake(DEFAULT_SPACE / 2, 0, buttonWidth, self.frame.size.height);
 }
 
 #define MIN_WIDTH 32.f
